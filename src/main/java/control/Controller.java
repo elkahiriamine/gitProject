@@ -11,4 +11,7 @@ public class Controller {
     public void destroy(){
         System.out.println("Destroy method");
     }
+    public void handleError(){
+        System.out.println("Error handling");
+    }
 }
